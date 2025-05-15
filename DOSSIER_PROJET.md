@@ -47,18 +47,63 @@
 
 ### Kit le nid
 
-- Entreprise spécialisée dans l'immobilier
-- Focus sur l'expérience utilisateur
-- Service de gestion de programmes immobiliers
-- Interface moderne et intuitive
+Kit le nid est une initiative du groupe immobilier Nexity, créée spécifiquement pour répondre aux besoins des jeunes acheteurs immobiliers. Notre mission est de simplifier et digitaliser le parcours d'achat immobilier pour cette cible souvent délaissée par le marché traditionnel.
+
+#### Notre mission
+
+- Accompagner les jeunes dans leur projet d'accession à la propriété
+- Simplifier et digitaliser le parcours d'achat
+- Rendre l'immobilier accessible aux nouvelles générations
+- Offrir un accompagnement personnalisé et transparent
+
+#### Notre approche
+
+- Service 100% digital avec un accompagnement humain
+- Transparence totale sur les prix et les conditions
+- Solutions financières adaptées aux jeunes acheteurs
+- Expertise du groupe Nexity au service des nouveaux acquéreurs
 
 ### Services proposés
 
-- Recherche de biens immobiliers
-- Gestion des rendez-vous
-- Administration des programmes
-- Suivi des prospects
-- Gestion des formulaires
+#### I. Accompagnement financier personnalisé
+
+- Conseil financier gratuit
+- Solutions d'apport réduit avec délai d'augmentation
+- Prêt à Taux Zéro de 75.000€ à 125.000€
+- Frais de notaire offerts
+- Accompagnement dans la constitution du dossier
+
+#### II. Accès à un large choix de logements
+
+- Plus de 30.000 logements neufs Nexity et partenaires
+- Couverture nationale
+- Documentation complète (plans, brochures) téléchargeable
+- Recherche simplifiée par localisation
+
+#### III. Accompagnement personnalisé
+
+- Un conseiller unique dédié
+- Suivi du projet de A à Z :
+  - Recherche du bien
+  - Constitution du dossier
+  - Accompagnement jusqu'à l'emménagement
+- Support continu via la plateforme digitale
+
+#### IV. Solutions digitales
+
+- Interface de recherche intuitive
+- Gestion des rendez-vous en ligne
+- Suivi de dossier en temps réel
+- Documents et formulaires accessibles 24/7
+- Notifications et alertes personnalisées
+
+### Notre différenciation
+
+- Focus exclusif sur les jeunes acheteurs
+- Approche 100% digitale avec service humain
+- Solutions financières avantageuses
+- Expertise du groupe Nexity
+- Accompagnement personnalisé de bout en bout
 
 ## 4. Gestion de projet
 
@@ -85,15 +130,11 @@
 
 ## 5. Spécifications fonctionnelles
 
-### Contraintes et livrables
-
-- Application web responsive
-- API RESTful
-- Base de données MongoDB
-- Documentation technique
-- Tests automatisés
+Pour plus de détails sur l'architecture et l'implémentation technique, veuillez consulter le document [ARCHITECTURE.md](./ARCHITECTURE.md).
 
 ### Architecture logicielle
+
+Pour une description détaillée de l'architecture, voir [ARCHITECTURE.md](./ARCHITECTURE.md#1-vue-d'ensemble).
 
 ```mermaid
 graph TD
@@ -105,13 +146,37 @@ graph TD
 
 ### Maquettes et enchaînements
 
-- Interface utilisateur moderne avec Tailwind CSS
-- Composants réutilisables
-- Navigation intuitive
-- Formulaires dynamiques
-- Visualisation cartographique
+#### TODO: Captures d'écran des interfaces utilisateur
+
+##### Page d'accueil
+
+```typescript
+// TODO: Code du composant HomePage
+```
+
+##### Recherche de biens
+
+```typescript
+// TODO: Code du composant SearchPage
+```
+
+##### Détail d'un programme
+
+```typescript
+// TODO: Code du composant ProgramDetail
+```
+
+##### Interface d'administration
+
+```typescript
+// TODO: Code du composant AdminDashboard
+```
+
+Pour plus de détails sur les composants et leur implémentation, voir [ARCHITECTURE.md](./ARCHITECTURE.md#3-workflow-et-modules-clés).
 
 ## 6. Modèle de données
+
+Pour une description complète du modèle de données et des relations, voir [ARCHITECTURE.md](./ARCHITECTURE.md#3-workflow-et-modules-clés).
 
 ### Modèle entités-associations
 
@@ -182,6 +247,8 @@ sequenceDiagram
 
 ## 8. Spécifications techniques
 
+Pour plus de détails sur les aspects techniques, voir [ARCHITECTURE.md](./ARCHITECTURE.md#5-sécurité-et-environnements).
+
 ### Sécurité
 
 - Authentification via NextAuth
@@ -231,10 +298,7 @@ export const getPropertiesRaw = async (inputs: SearchInputs) => {
 ### Plan de tests
 
 - Tests unitaires avec Vitest
-- Tests d'intégration
-- Tests de sécurité
-- Tests de performance
-- Tests de compatibilité navigateurs
+- TODO: Captures d'écran des tests et résultats
 
 ### Jeu d'essai - Recherche de propriétés
 
