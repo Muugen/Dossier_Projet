@@ -149,7 +149,7 @@ graph TD
 Voici un diagramme simplifié montrant l'interaction entre les différents composants :
 
 ```mermaid
-graph LR
+graph TD
     A[Client / Navigateur] --> B[Next.js (Frontend)]
     B --> C[API Routes Next.js (Backend)]
     C --> D[Prisma / PostgreSQL]
